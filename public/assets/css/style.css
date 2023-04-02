@@ -1,0 +1,174 @@
+body {
+    font-family: Helvetica;
+    font-size: 14px;
+}
+
+.bg-grey {
+    background-color: #F1F3FF;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+}
+
+.global-container {
+    padding: 25px 10vw;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.gap-16 {
+    gap: 16px;
+}
+
+.gap-32 {
+    gap: 32px;
+}
+
+.no-mp {
+    margin: 0;
+    padding: 0;
+}
+
+.link-no-decoration {
+    color: #000;
+    text-decoration: none;
+}
+
+.btn-success {
+    background: #5CB85F;
+    border-radius: 2px;
+    padding: 8px 12px;
+    border: none;
+    font-weight: 700;
+}
+
+.btn-burger-menu {
+    border: none;
+    background-color: transparent;
+}
+
+#sidebar-menu {
+    display: none;
+}
+
+.img-car {
+    width: 662px;
+    height: 407px;
+    left: 736px;
+    top: 97px;
+}
+
+.hero-tagline h1 {
+    width: 568px;
+    font-size: 36px;
+}
+
+.hero-tagline p {
+    width: 468px;
+    line-height: 20px;
+}
+
+.img-service {
+    width: 459px;
+    height: 428px;
+    left: 206px;
+    top: 604px;
+}
+
+.container-service {
+    padding: 50px 13vw;
+}
+
+.img-card {
+    margin-bottom: 15px;
+}
+
+.textimonial-box {
+    width: 619px;
+    height: 270px;
+    left: 410px;
+    top: 1652px;
+    align-items: center;
+}
+
+.img-photo1 {
+    margin: 30px;
+}
+
+.testi-star-box i {
+    color: #F9CC00;
+}
+
+#banner {
+    background-color: #0D28A6;
+    width: 1075px;
+    height: 326px;
+    border-radius: 13px;
+    margin: 0 auto;
+}
+
+#banner h1 {
+    font-size: 36px;
+    color: #FFFFFF;
+
+}
+
+#banner p {
+    width: 468px;
+    color: #FFFFFF;
+    margin: 0 auto;
+    margin-top: 16px;
+}
+
+.accordion {
+    margin: 15px;
+    box-sizing: border-box;
+    border: 1px solid #D4D4D4;
+    border-radius: 4px;
+}
+
+.link-footer a {
+    color: #000;
+    text-decoration: none;
+}
+
+.link-footer p {
+    margin-left: 80px;
+}
+
+@media only screen and (max-width: 576px) {
+    .global-container {
+        padding: 24px 16px;
+    }
+
+    .nav-list {
+        display: none;
+    }
+
+    #sidebar-menu {
+        display: block;
+    }
+
+    .title-why-us{
+        text-align: center;
+    }
+
+}

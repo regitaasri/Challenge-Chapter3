@@ -1,0 +1,48 @@
+.search-bar {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+  }
+
+.content {
+  width: 73%;
+  padding: 24px;
+  background: #ffffff;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: -50px;
+}
+  
+.input {
+  width: 21%;
+}
+  
+.control, .select {
+  border-radius: 3px;
+  flex: 1 1 auto;
+  width: 100%;
+  border: 1px solid #d3cece;
+  min-width: 0;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 30px;
+}
+  
+.item {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 30px;
+}
+    
+.button-search {
+  width: 10%;
+  background: #5cb85f;
+  border-radius: 3px;
+  color: white;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  height: 6vh;
+  align-self: end;
+}
